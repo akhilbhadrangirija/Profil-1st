@@ -165,7 +165,7 @@ themeButton.addEventListener("click", () => {
 $("#submit-form").submit((e) => {
   e.preventDefault();
   $.ajax({
-    url: "https://script.google.com/macros/s/AKfycbw-x2XKY5Hm-ODBOb2ohie32lNpZzxV2HJmQZI37WKtqmDaLZx1vWNe9eeh22Di0exyWg/exec",
+    url: "",
     data: $("#submit-form").serialize(),
     method: "post",
     success: function (response) {
